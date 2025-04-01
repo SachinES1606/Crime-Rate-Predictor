@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crime Rate Prediction</title>
+    <link rel="icon" href="static/images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Timmana&display=swap');
+    *{font-family: "Roboto Condensed", sans-serif;}
+</style>
+<body>
+    <header>
+        <h1 class = "title">Crime Rate Predictor</h1>
+        <h2 class = "tagline">Unlock safety: Reduce crime rate together</h2>
+    </header>     
+    
+    <section class="prediction">
+        <table class="table2">
+                <td class="label">
+                    <label>Selected City Name </label>
+                </td>
+                <td class="sel">
+                    <select>
+                        <option value="selected">{{city_name}}</option>
+                </td>
+            </tr>
+            <tr class="r1">
+                <td class="label">
+                    <label>Selected Crime Type </label>
+                </td>
+                <td class="sel">
+                    <select >
+                        <option value="selected">{{crime_type}}</option>
+                </td>
+            </tr>
+            <tr class="r1">
+                <td class="label">
+                    <label>Selected Year </label>
+                </td>
+                <td class="sel">
+                    <select>
+                        <option value="selected">{{year}}</option>
+                </td>
+            </tr>
+        </table>
+
+        <table class="table3">         
+            
+            <tr class="r2""> 
+                <td class="result"> Prediction :</td>
+                <td class="result">{{crime_status}}</td>
+            </tr>
+            <tr class="r2">
+                <td class="result"> Estimated Crime Rate :</td>
+                <td class="result">{{crime_rate}}</td>
+            </tr>
+            <tr class="r2">
+                <td class="result"> Estimated Number of Cases :</td>
+                <td class="result">{{cases}}</td>
+            </tr>
+            <tr class="r2">
+                <td class="result"> Population (in Lakhs) :</td>
+                <td class="result">{{population}}</td>
+            </tr>
+        </table>
+
+        <div class="button2" >
+            <a href="http://127.0.0.1:5000">
+                <input type="submit" class="btn id="check_again" text-width="10px" value="Let's Check Again">
+            </a>            
+        </div> 
+        
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div id="developer">
+                <h3 >DEVELOPED BY: SACHIN E </h3>
+            </div>
+            <div id="linkedin">
+                <a href="http://www.linkedin.com/in/sachin-sachin-411751254" target="_blank">
+                    <img src="static/images/linkedin2.png" alt="linkedIn" width="45" >                
+                </a>  
+            </div>
+            <div id="github">
+                <a href="https://github.com/SachinES1606" target="_blank">
+                    <img src="static/images/github2.png" alt="GitHub" width="45">
+                </a>
+            </div>
+        </div>       
+    </footer>    
+</body>
+</html>

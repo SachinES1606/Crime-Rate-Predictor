@@ -1,0 +1,246 @@
+body{
+    margin: 0px;
+    padding: 0px;   
+    color: black;     
+    background-image: url('./images/crime.jpg');
+    background-image: -webkit-gradient(linear,right bottom, left top, from(charcoal gray), to(#f0f0f0));
+    background-image: -o-linear-gradient(right bottom, #fafafa, #555555);
+    background-image: linear-gradient(to left top, charcoal gray, #545353);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+    background-attachment:scroll;
+    font-family:  "Roboto Condensed", sans-serif;
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Timmana&display=swap');
+*{font-family: "Roboto Condensed", sans-serif;}
+    body{
+    margin: 0px;
+    padding: 0px;   
+    color: black;   
+}
+
+header {    
+    -webkit-text-fill-color: #ffffff; 
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #515151, #bdbbbb, #383838, #0e0e0e);
+    -webkit-background-clip: text;    /* Clip gradient to text */
+    -webkit-text-fill-color: transparent;  /* Make the text transparent */
+    animation: gradient-move 5s infinite alternate;
+    text-align: center;
+    padding: 10px 0;
+    box-shadow: 0 3px 10px #000000; /* Add shadow to header */
+    transition: all 0.3s; /* Add transition effect */
+    border-color: #0e0e0e;
+    color: #ffe5be;
+  }
+  header:hover {
+    box-shadow: 0 6px 15px #000000;   /* Add larger shadow on hover */
+    transform: scale(1.05);           /* Slight zoom effect */
+    cursor: pointer;                   /* Change cursor to pointer */
+  }
+  
+  .gradient-text {
+    font-size: 48px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #ffffff, #bdbbbb, #000000, #0e0e0e);
+    -webkit-background-clip: text;    /* Clip gradient to text */
+    -webkit-text-fill-color: transparent;  /* Make the text transparent */
+    animation: gradient-move 5s infinite alternate;
+  }
+
+  /* Optional: Gradient Animation */
+  @keyframes gradient-move {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+.title{
+    margin: 0px;
+    padding-top: 30px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 900;
+    font-stretch: extra-expanded;
+    font-style: italic; 
+}
+.tagline{
+    margin: 0px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+}
+table.table1{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-style:italic;
+    font-weight: 600;
+}
+td.label{ 
+    text-shadow: #f0f0f0 2px 2px 2px;
+    text-decoration-color: #fafafa;
+    text-align: center;
+    width: 400px;
+    height: 70px;
+}
+td.sel{
+    width: 400px;
+    height: 70px;
+}
+select{
+    padding: 6px;
+    width: 250px;
+    font-size: 25px;
+    font-family:  "Roboto Condensed", sans-serif;
+    font-style:italic;
+    font-weight: 400;    
+    border: solid 3px #000000;
+    border-radius: 15px;
+}
+
+.button{
+    margin: 30px;
+    text-align: center; 
+    padding: 30px;   
+}
+.btn{
+    padding: 7px;
+    width: 300px;
+    height: 70px;
+    font-size: 30px;
+    font-family:  "Roboto Condensed", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    background-color: #121c27;
+    color:grey;   
+    border: solid 2px #000000;    
+    border-radius: 10px;
+}
+.btn:hover{   
+    background-color:grey;
+    color: #222222;
+    border: solid 2px #202021; 
+    box-shadow: #f0f0f0 1px 6px 15px;
+    transition: all 0.3s;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.prediction{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 900;
+    padding-bottom: 50px;
+    border-bottom: 2px solid;
+}
+table.table2{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    font-style:italic;
+    font-weight: 400;
+
+}
+td.label{
+    width: 400px;
+    height: 70px;
+}
+td.sel{
+    width: 400px;
+    height: 70px;
+}
+tr.r1{
+    font-size: 30px;
+    font-style:italic;
+    font-weight: 500;
+}
+tr.r2{
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 900;
+}
+
+
+table.table3{
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-style:italic;
+    font-weight: 400;
+    font-display: swap;
+    text-shadow:#013212 3px 4px 5px;
+    color:#9b9b9b;
+
+}
+td.result{
+    text-align: center;
+    width: 300px;
+    height: 60px;
+}
+.button2{
+    text-align: center;
+    text-size-adjust: 10px;
+    margin-top: 45px;
+    font-size: 5px;
+    font-family: "Roboto Condensed", sans-serif;
+    margin-top:50px;
+}
+
+#about{
+    padding-top: 50px;
+    text-align: center;
+    text-decoration:wavy;
+    font-size: 30px;
+    color:rgb(158, 158, 158);
+    font-style: oblique;
+    font-display: swap;
+}
+#introduction{
+    padding-left: 150px;
+    padding-right: 150px;
+    font-size: 20px;
+    font-style: oblique;
+    font-display: swap;
+    font-weight: 500;
+    text-align: center;
+    color:rgb(158, 158, 158);
+}
+
+.footer{
+    padding: 20px;
+    height: 100px;
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color:ghostwhite;
+    text-shadow: #013212 1px 2px 2px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+#developer{
+    text-wrap: wrap;
+    flex-basis: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+#linkedin{    
+    padding-right: 20px;    
+}
+#github{
+    padding-left: 20px;
+}
